@@ -1,12 +1,17 @@
-WooCommerce Twitter's Bootstrap Plugin
+WooCommerce Bootstrap Plugin
 ======================================
 
-This plugin wraps your Woocommerce views in the Twitter's Bootstrap Grid. Makes your views full responsive. No changes to your theme or other plugins needed.
+
+*The point of this fork is to make the shortcode rewriting work with wordpress 4.0 and wooocommerce 2.2.x*
+
+
+
+This plugin wraps your Woocommerce views in the Bootstrap Grid. Makes your views full responsive. No changes to your theme or other plugins needed.
 
 Installation
 ------------
 
-[Download the latest version as .zip file](https://github.com/bassjobsen/woocommerce-twitterboostrap/archive/master.zip). Upload the .zip file to your Wordpress plugin directory (wp-content/plugin) and use the activate function in your dashboard.
+[Download the latest version as .zip file](https://github.com/jamieisboss/woocommerce-bootstrap/archive/master.zip). Upload the .zip file to your Wordpress plugin directory (wp-content/plugin) and use the activate function in your dashboard.
 ( Plugins > installed plugins ).
 
 Twitter's Bootstrap version
