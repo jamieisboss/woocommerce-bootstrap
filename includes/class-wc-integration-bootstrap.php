@@ -27,8 +27,7 @@ class WC_Integration_Bootstrap_Integration extends WC_Integration {
 
 		// Define user set variables.
 		$this->number_of_columns          = $this->get_option( 'number_of_columns' );
-		$this->bootstrap_version          = $this->get_option( 'bootstrap_version' );
-		//$this->image_size                 = $this->get_option( 'image_size' );
+		//$this->image_size               = $this->get_option( 'image_size' );
 
 		// Actions.
 		add_action( 'woocommerce_update_options_integration_' .  $this->id, array( $this, 'process_admin_options' ) );
@@ -49,19 +48,7 @@ class WC_Integration_Bootstrap_Integration extends WC_Integration {
 				'desc_tip'          => true,
 				'default'           => '',
 				'options'           => array(1,2,3,4,5,6)
-			),
-			'bootstrap_version' => array(
-				'title'             => __( 'Bootstrap Version', 'woocommerce-bootstrap-integration' ),
-				'type'              => 'select',
-				'description'       => __( 'Choose the version of bootstrap you are using.', 'woocommerce-bootstrap-integration' ),
-				'desc_tip'          => true,
-				'default'           => '',
-				'options'           => array(
-				    
-				            2 => 'Bootstrap 2.x',
-				            3 => 'Bootstrap 3.x'
-				            )
-			),
+			)
 			
 			
 		);
@@ -103,14 +90,6 @@ class WC_Integration_Bootstrap_Integration extends WC_Integration {
 		return ob_get_clean();
 	}
 
-
-
-
-
-
-
-
-	
 
 
 }
