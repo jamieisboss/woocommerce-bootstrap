@@ -19,7 +19,7 @@ class WC_Integration_Bootstrap_Integration extends WC_Integration {
 
 		$this->id                 = 'Bootstrap Integration';
 		$this->method_title       = __( 'Bootstrap Integration', 'woocommerce-bootstrap-integration' );
-		$this->method_description = __( 'An integration of bootstraps responsive grid into woocommerce.', 'woocommerce-bootstrap-integration' );
+		$this->method_description = __( 'An integration of the bootstrap responsive grid into woocommerce.', 'woocommerce-bootstrap-integration' );
 
 		// Load the settings.
 		$this->init_form_fields();
